@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lecture 4 - Forms</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Lecture 1</a> |
+    <a href="lecture2.html">Lecture 2</a> |
+    <a href="lecture3.html">Lecture 3</a> |
+    <a href="lecture4.html">Lecture 4</a> |
+    <a href="lecture5.html">Lecture 5</a>
+  </nav>
+  <hr>
+
+  <h1>University Registration Form</h1>
+  <p>Please fill out the form below:</p>
+  <hr>
+
+  <form>
+    <h2>Personal Details</h2>
+    <label>First Name: <input type="text" placeholder="Arjun" required></label><br><br>
+    <label>Last Name: <input type="text" placeholder="Sharma"></label><br><br>
+    <label>DOB: <input type="date"></label><br><br>
+
+    <h3>Gender</h3>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <input type="radio" name="gender"> Other
+    <br><br>
+
+    <h3>Upload Photo</h3>
+    <input type="file"><br><br>
+
+    <h2>Contact Info</h2>
+    <label>Email: <input type="email"></label><br><br>
+    <label>Phone: <input type="tel"></label><br><br>
+    <label>Address:</label><br>
+    <textarea rows="5" cols="30"></textarea><br><br>
+
+    <h2>Academic Info</h2>
+    <select>
+      <option>CSE</option>
+      <option>ME</option>
+      <option>CE</option>
+    </select><br><br>
+
+    <h3>Interests</h3>
+    <input type="checkbox"> Sports
+    <input type="checkbox"> Music
+    <input type="checkbox"> Technology
+    <input type="checkbox"> Volunteering
+    <br><br>
+
+    <h2>Account Creation</h2>
+    <label>Password: <input type="password"></label><br><br>
+    <label>Security Answer: <input type="text"></label><br><br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Clear</button>
+  </form>
+
+  <footer>
+    <p>End of Lecture 4</p>
+  </footer>
+</body>
+</html>
